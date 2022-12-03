@@ -1,0 +1,28 @@
+print("========================================================")
+print(" PHINMA CAGAYAN DE ORO COLLEGE TEACHER'S PAYROLL")
+print("========================================================")
+print("")
+
+month=input("Pay Period:")
+date=input("Pay Date:")
+print("")
+
+print("------------------EMPLOYEE INFORMATION---------------------------")
+print("")
+name=input("Employee Name:")
+tax=input("Tax code:")
+tin=input("TIN no.:")
+sss=input("SSS no.:")
+print("")
+# mao ni kung faculty teacher ba or janitor or maintinance or guard
+work=input("Designation:")
+#mao ni kung as ni siya na department kung sa CEA, CAS,CITE or more
+team=input("Department/ Team :")
+# mao ni kung simi-monthly or by month ang sweldo
+payroll=input("Payroll Frequency:")
+#mao ni kung regular or contractual ba ang employee
+regular=input("Employeement Type:")
+# mao ni kung pila ilang sweldo
+rate=int(input("Employee Rate:"))
+print("---------------------------------------------------------------------")
+print("")
